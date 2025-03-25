@@ -1,0 +1,31 @@
+dracula theme official
+
+HTML --> Linguagem de marcação de hyper texto
+
+CSS ---> Folha de estilo
+
+JS --> Linguagem de programação
+
+HTML --> Não é case sensitive, ou seja, não diferencia maiusculo de minusculo. Mas evite usar maiusculo.
+
+
+Abertura de tag:
+
+<p> conteudo </p>
+
+
+
+Atributos:
+
+<a href="https://g1.globo.com/">Link Site G1</a>
+
+
+git add .
+git config --global user.name "Arthur Berlofa Bosi"
+git config --global user.email arthu31313@gmail.com
+git push
+git pull
+git log
+git status
+git merge
+git checkout 
