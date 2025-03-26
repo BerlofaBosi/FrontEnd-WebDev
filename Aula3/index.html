@@ -5,16 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 3</title>
+    <link rel="shortcut icon" href="images/github.png" type="image/x-icon">
+
 </head>
 
 <body>
+    <!-- Comentário FEIO PA PORRA -->
     <h1>Título</h1>
-    <p>Paragrafo e <br> pula linha</p>
-    <hr>
+    <p>Paragrafo e <br> 
+        <a href="#">
+            <b>
+                <i>
+                    Pular linha
+                </i>
+            </b>
+        </a>
+    </p>
+    <!-- Linha no meio da pagina -->
+    <hr> 
+
     <a href="#">Link para o site</a>
-    <img src="https://tenor.com/pt-PT/view/wheelchair-escalator-roll-fall-big-mistake-gif-3500002"
-        alt="Descrição da Imagem">
-    <div class="tenor-gif-embed" data-postid="3500002" data-share-method="host" data-aspect-ratio="1.02326" data-width="100%"><a href="https://tenor.com/view/wheelchair-escalator-roll-fall-big-mistake-gif-3500002">Big Mistake - Trying To Use An Escalator In A Wheelchair GIF</a>from <a href="https://tenor.com/search/wheelchair-gifs">Wheelchair GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <figure>
+
+        <img src="https://s3.us-east-1.amazonaws.com/vnda-cockpit/www-ortoponto-com-br/2022/09/06/6317902d9a476x-tecnologias-que-auxiliam-a-vida-da-pessoa-cadeirante-20220721091015.jpg-1.jpg"
+            alt="Descrição da Imagem">
+        <figcaption>TESTE TESTE TESTE</figcaption>
+
+    </figure>
+
+<!-- Lista Desordenada = Não Tem Número-->
+    <ul>
+        <li><a href="">Café</a></li>
+        <li><a href="">Pão</a></li>
+        <li><a href="">Ovo</a></li>
+    </ul>
+
+<!-- Lista Ordenada = Tem Número-->
+<!-- Comando: ol>li*5>a -->
+
+    <ol>
+        <li><a href="" target="_blank">Item</a></li>
+        <li><a href="" target="_blank">Item</a></li>
+        <li><a href="" target="_blank">Item</a></li>
+        <li><a href="" target="_blank">Item</a></li>
+        <li><a href="" target="_blank">Item</a></li>
+    </ol>
+
+<!-- blank serve para abrir em uma pagina nova -->
+<!-- Atalho para comentario em qualquer linguagem: ctrl + ;     -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rSQGCL6pMgs?si=HI1MSPzHeTGHS1aN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QTGt00fqgY0?si=ZVWQQoMvyJOYs9L3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "familia_sacana_tv"
+  });
+</script>
 
 </body>
 
