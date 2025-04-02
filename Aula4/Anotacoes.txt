@@ -1,0 +1,10 @@
+01/04/25 - Front End
+
+Briefing:
+	Definição dos escopos do projeto.
+
+S.E.O.: 
+	Search Engine Optimization.
+
+Sitemap:
+	Mapa da estrutura do site.
