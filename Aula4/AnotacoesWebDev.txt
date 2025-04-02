@@ -1,0 +1,15 @@
+Quando fazer o commit?
+	Cada commit deve conter apenas uma alteração relevante.
+
+modificações commit:
+	git commit --amend -m "Mensagem"  -->   Alterar a mensagem do ultimo commit
+	git commit --amend --author "Nome do autor"  --> Altera o nome de usuario do ultimo commit
+	git checkout id_commit  --> viaja entre os commits
+	git checkout HEAD~3  --> Quando nao se sabe o ID do commit, é possivel voltar no commit mudando o numero de "passos"
+	git reset --hard id_commit   -->   apaga o commit
+	git reflog   -->  Guarda um historico de comits
+	git cherry-pick  -->  Pega um unico commit especifico
+	git push --force  -->  Força um push
+
+
+--> CI/CD - Continuous Integration / Continuous Delivery
