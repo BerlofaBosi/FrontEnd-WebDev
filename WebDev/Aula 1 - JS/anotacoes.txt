@@ -1,0 +1,10 @@
+formas de converter dados no js:
+    -pareseInt()
+    -parseFloat()
+    -String()
+    -Number()
+
+comparador == vs ===
+    -o == so compara o valor
+    -o === compara tambem o tipo de dado
+
