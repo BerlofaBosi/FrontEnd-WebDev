@@ -1,0 +1,36 @@
+tag para elementos html:
+id / class
+---------------------------------------
+métodos de cor:
+	-rgb/rgba
+	-cmyk
+	-hexadecimal
+
+# https://color.adobe.com/pt/create/color-wheel
+# https://cssgradient.io/
+
+tipos de harmoni:
+	-complementar
+	-análoga
+	-monocromático
+
+regra 60 / 30 / 10
+	-Segue ordem de prioridade. Quanto maior for, mais especifica é a cor.
+
+---------------------------------------
+rgba(red, green, blue, alpha)
+
+alpha --> transparencia
+
+0 - 255
+---------------------------------------
+hexadecimal
+
+#__   __   __
+red green blue
+
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+
+ex: #eb4034
+
+---------------------------------------
