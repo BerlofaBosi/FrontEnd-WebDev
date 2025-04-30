@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100;
+    background-color: #2300E6;
+    color: #00E6C9;
+}
+
+.main {
+    color: #00E6C9;
+    text-align: center;
+    background-image: url(https://s3.amazonaws.com/wpfiap/wp-content/uploads/2019/04/CHALLENGE_SANOFI-99.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+    height: 1000px;
+}
+
+footer {
+    height: 100px;
+
+}

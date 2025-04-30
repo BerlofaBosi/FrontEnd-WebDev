@@ -1,0 +1,34 @@
+/* Reseta a pagina */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza todos os paragrafos */
+p{
+    color: blue;
+}
+
+/* Estiliza toda a classe caixa-texto */
+.caixa-texto{
+    /* background-color: bisque; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbBo8pAFktLjJo8Ew4WblSZ11l7sNTmlLEQ&s");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 400px;
+    width: 500px;
+}
+
+/* Estiliza somente o paragrafo da classe */
+/* Se quiser pegar somente os filhos diretos, colocar um > antes da tag desejada */
+/* Caso queira pegar mais de um elemento por vez, utilizar "," para separar */
+.caixa-texto p {
+    color: palegreen;
+}
+
+/* :hover é quando o mouse passa em cima */
+p:hover {
+
+}
