@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: "Cute Notes";
+    src: url(./font/Cute\ Notes.ttf);
+}
+
 /* Estiliza todos os paragrafos */
 p{
     color: blue;
@@ -26,9 +31,20 @@ p{
 /* Caso queira pegar mais de um elemento por vez, utilizar "," para separar */
 .caixa-texto p {
     color: palegreen;
+    font-size: 30px;
+    font-family: "Cute Notes", Arial, Arial, Helvetica, sans-serif;;
+
+}
+margin{
+     z-index: 999x;  ;/* Camadas */
+     margin: -100px; /*Espaçamento externo com outros eleentos*/
+     padding: 10px;
+     border: 5px solid red;
+     border: 5x C q;
+     border-radius: 20px;
+     
 }
 
 /* :hover é quando o mouse passa em cima */
 p:hover {
-
 }

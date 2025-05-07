@@ -1,0 +1,8 @@
+Tipografia:
+    É o estudo, criação e aplicação dos caracteres, estilos, formatos e arranjos visuais das formas.
+
+    San Serif - Sem serifa melhora a legibilidade para grandes escritas digitais.
+
+Css box model:
+    Esquema das margens / paddings
+
